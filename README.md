@@ -104,8 +104,8 @@ Within this dataset and fixed split, the TabPFN–EAZY residual hybrid produced 
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/Howtoclose1t/Astronomy-Case-Studies.git
+cd Astronomy-Case-Studies
 ```
 
 ### 2. Obtain the data
