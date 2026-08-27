@@ -1,0 +1,16 @@
+{
+  "analysis": "EAZY baseline plus applied TabPFN log-residual correction",
+  "blind_test_sources": 476,
+  "representative_cases": 10,
+  "redshift_bins": [
+    "0 <= z < 1",
+    "1 <= z < 2",
+    "2 <= z < 3",
+    "3 <= z < 4",
+    "4 <= z < 6",
+    "6 <= z < 8",
+    "z >= 8"
+  ],
+  "model_retrained": false,
+  "gpu_used": false
+}

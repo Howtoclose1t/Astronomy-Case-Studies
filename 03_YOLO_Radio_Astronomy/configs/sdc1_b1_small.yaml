@@ -1,0 +1,24 @@
+project_root: .
+raw_fits: ../radio_ska/data/raw/SKAMid_B1_1000h_v3.fits
+catalog: ../radio_ska/data/catalog/TrainingSet_B1_v2.txt
+output_dir: data/processed/yolo_sdc1_b1_small
+band: B1
+class_mode: astrophysical
+classes:
+  0: SS-AGN
+  1: FS-AGN
+  2: SFG
+tile_size: 640
+tile_stride: 640
+max_tiles: 160
+negative_fraction: 0.25
+validation_fraction: 0.2
+random_seed: 42
+min_flux_jy: 5.0e-5
+max_sources_per_tile: 80
+min_box_pixels: 6
+max_box_fraction: 0.6
+normalization:
+  lower_percentile: 1.0
+  upper_percentile: 99.7
+  stretch: asinh

@@ -1,0 +1,61 @@
+# Local editors and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Python, Jupyter and local environments
+**/__pycache__/
+**/*.py[cod]
+**/.ipynb_checkpoints/
+**/.pytest_cache/
+**/.cache/
+**/.venv/
+**/venv/
+**/.env
+**/*.env
+**/*.token
+**/*.key
+**/Untitled*.ipynb
+
+# Local astronomy data: retrieve it using each task README
+**/data/**
+*.fits
+*.fit
+*.fits.gz
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Model weights, generated datasets and training runs
+*.pt
+*.pth
+*.joblib
+*.onnx
+*.engine
+*.torchscript
+**/runs/**
+**/outputs/models/**
+**/outputs/predictions/**
+**/outputs/checkpoints/**
+**/outputs/catalogs/**
+**/outputs/tables/**
+**/outputs/archive/**
+**/archive/**
+
+# Local caches and temporary files
+01_JWST_Image_Processing/pip_cache/
+01_JWST_Image_Processing/tmp/
+01_JWST_Image_Processing/10.png
+*.log
+*.tmp
+
+# Task 06: publish only our notebook; setup and data instructions are in the root README
+06_DINGO_T1_Case_Study/*
+!06_DINGO_T1_Case_Study/baseline/
+06_DINGO_T1_Case_Study/baseline/*
+!06_DINGO_T1_Case_Study/baseline/tutorial_inference_with_DINGO-T1.ipynb
+
+# Upstream repositories kept locally for reference only
+07_Euclid_Q1_Case_Study/official_tutorial/

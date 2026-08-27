@@ -1,0 +1,11 @@
+{
+  "comparison": [
+    "EAZY DR5 z_a",
+    "TabPFN v3: photometry only",
+    "TabPFN v3: EAZY residual",
+    "TabPFN v3: resampled EAZY residual"
+  ],
+  "validation_sources": 476,
+  "test_set_opened": false,
+  "selection_metric": "normalized_median_absolute_error"
+}

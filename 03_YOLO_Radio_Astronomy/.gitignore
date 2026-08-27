@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.cache/
+
+# Environments
+.venv/
+venv/
+.env
+*.env
+
+# Large astronomy data
+*.fits
+*.fit
+*.fits.gz
+*.h5
+*.hdf5
+
+# Generated datasets and model outputs
+data/processed/
+outputs/runs/
+outputs/checkpoints/
+outputs/predictions/
+outputs/metrics/
+runs/
+*.pt
+*.onnx
+*.engine
+*.torchscript
+
+# Local system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

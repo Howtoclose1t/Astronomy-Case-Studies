@@ -1,0 +1,23 @@
+project_root: .
+raw_fits: ../radio_ska/data/raw/SKAMid_B1_1000h_v3.fits
+catalog: ../radio_ska/data/catalog/TrainingSet_B1_v2.txt
+output_dir: data/processed/yolo_sdc1_b1_round2
+band: B1
+class_mode: detection
+classes:
+  0: radio-source
+tile_size: 320
+tile_stride: 160
+max_positive_tiles: 600
+negative_fraction: 0.1
+validation_fraction: 0.2
+split_strategy: spatial_x_holdout
+random_seed: 42
+min_flux_jy: 1.0e-5
+max_sources_per_tile: 0
+min_box_pixels: 6
+max_box_fraction: 0.8
+normalization:
+  lower_percentile: 1.0
+  upper_percentile: 99.7
+  stretch: asinh

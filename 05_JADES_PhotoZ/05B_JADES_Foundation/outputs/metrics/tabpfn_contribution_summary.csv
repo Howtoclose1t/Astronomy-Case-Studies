@@ -1,0 +1,13 @@
+metric,value
+Blind-test sources,476.0
+Sources improved by TabPFN,302.0
+Fraction improved by TabPFN,0.634453781512605
+Sources worsened by TabPFN,174.0
+Fraction worsened by TabPFN,0.36554621848739494
+EAZY outliers fixed by TabPFN,10.0
+New outliers introduced by TabPFN,5.0
+Outliers shared by both methods,10.0
+Correction-direction agreement,0.7752100840336135
+True-versus-applied residual correlation,0.9029763113795981
+Median absolute redshift correction,0.06686272189001374
+Median normalized-error improvement,0.005358929472997237

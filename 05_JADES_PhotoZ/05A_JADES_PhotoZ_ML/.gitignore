@@ -1,0 +1,17 @@
+# Generated Task 5 data and outputs
+data/processed/*.csv
+outputs/figures/*
+outputs/metrics/*
+outputs/models/*
+outputs/predictions/*
+
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local legacy versions; keep locally but do not publish
+src/archive/
+notebooks/archive/
+data/archive/
+outputs/archive/

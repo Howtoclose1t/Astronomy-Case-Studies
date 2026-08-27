@@ -1,0 +1,11 @@
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+astropy>=6.0
+scikit-learn>=1.4
+opencv-python>=4.9
+Pillow>=10.0
+PyYAML>=6.0
+tqdm>=4.66
+jupyter>=1.0
+ultralytics>=8.3

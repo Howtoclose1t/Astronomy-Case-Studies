@@ -1,0 +1,29 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+
+# Local environments and credentials
+.env
+.venv/
+venv/
+*.token
+*.key
+
+# Logs and temporary files
+*.log
+*.tmp
+~$*
+
+# Large local astronomy inputs
+data/raw/
+data/interim/
+*.fits
+*.fits.gz

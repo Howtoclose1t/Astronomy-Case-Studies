@@ -1,0 +1,19 @@
+name: yolo-radio-astronomy
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - astropy
+  - scikit-learn
+  - pillow
+  - pyyaml
+  - tqdm
+  - jupyter
+  - pip
+  - pip:
+      - opencv-python>=4.9
+      - ultralytics>=8.3

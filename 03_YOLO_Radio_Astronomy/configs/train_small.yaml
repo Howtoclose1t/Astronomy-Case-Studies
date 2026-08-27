@@ -1,0 +1,16 @@
+dataset_yaml: data/processed/yolo_sdc1_b1_small/dataset.yaml
+model: yolo11n.pt
+project: outputs/runs
+name: yolo_sdc1_small
+imgsz: 640
+epochs: 30
+batch: 8
+device: 0
+workers: 2
+patience: 10
+seed: 42
+optimizer: auto
+cos_lr: true
+close_mosaic: 10
+cache: false
+plots: true

@@ -1,0 +1,14 @@
+{
+  "primary_method": "TabPFN v3: EAZY residual",
+  "secondary_tabpfn_ablation": "TabPFN v3: photometry only",
+  "tabpfn_context_sources": 2695,
+  "blind_test_sources": 476,
+  "task5a_baselines_retrained": false,
+  "task5a_predictions_reused": true,
+  "blind_with_respect_to_tabpfn_development": true,
+  "tabpfn_runtimes_seconds": {
+    "TabPFN v3: photometry only": 4.865488400000686,
+    "TabPFN v3: EAZY residual": 4.838083000000552
+  },
+  "further_test_tuning_allowed": false
+}

@@ -1,0 +1,14 @@
+{
+  "methods": [
+    "EAZY DR5 z_a",
+    "XGBoost: photometry only",
+    "XGBoost: gated EAZY residual",
+    "TabPFN v3: photometry only",
+    "TabPFN v3: EAZY residual"
+  ],
+  "validation_sources": 476,
+  "ranking_metric": "normalized_median_absolute_error",
+  "catastrophic_outlier_threshold": 0.15,
+  "models_retrained": false,
+  "test_set_opened": false
+}

@@ -1,0 +1,8 @@
+peak_sigma,injected_sources,recovered_sources,recovery_fraction
+2.5,50,16,0.32
+3.0,50,33,0.66
+4.0,50,50,1.0
+5.0,50,50,1.0
+6.0,50,50,1.0
+8.0,50,50,1.0
+10.0,50,50,1.0

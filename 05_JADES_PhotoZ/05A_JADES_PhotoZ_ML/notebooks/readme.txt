@@ -1,0 +1,1 @@
+基于3,171个 JADES DR4–DR5 匹配源，我们构建并盲测了 EAZY + XGBoost gated residual hybrid，使平均红移误差降低20.4%，并将 catastrophic outliers 从20个减少至16个。

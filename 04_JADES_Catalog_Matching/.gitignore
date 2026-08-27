@@ -1,0 +1,11 @@
+data/raw/*.fits
+data/raw/**/*.fits
+data/processed/*.csv
+outputs/figures/*.png
+outputs/metrics/*.csv
+outputs/metrics/*.json
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+src/archive/
+notebooks/archive/
