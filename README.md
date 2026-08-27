@@ -90,8 +90,10 @@ Within this dataset and fixed split, the TabPFN–EAZY residual hybrid produced 
 
 ### 06. DINGO-T1 Gravitational-Wave Inference
 
-- The DINGO-T1 workflow was applied to the real gravitational-wave event `GW190701_203306` using neural posterior estimation.
-- Posterior distributions were compared for the H1, H1–L1, and H1–L1–V1 detector networks. In this exercise, combining detectors substantially narrowed the posterior distributions of several physical parameters, including mass, inclination, and luminosity distance. The case study demonstrates the practical use of a Transformer-based model for rapid gravitational-wave inference.
+- Followed the DINGO-T1 tutorial to reproduce the gravitational-wave inference workflow.
+- Ran inference for the real event `GW190701_203306` and compared posterior distributions across H1, H1–L1, and H1–L1–V1 detector configurations.
+- Gained hands-on familiarity with Transformer-based gravitational-wave parameter estimation and the effect of multi-detector observations on posterior constraints.
+
 
 ### 07. Euclid Q1 Data Analysis
 
